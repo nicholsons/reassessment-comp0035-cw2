@@ -2,7 +2,7 @@
 
 1. Create a project in VS Code, PyCharm or other Python IDE
 2. Create and activate a virtual Python environment.
-3. The coursework code has the following structure:
+3. The coursework code should have the following structure:
 
     ```text
      my_project/
@@ -23,8 +23,8 @@
       ```
 4. Install the project code using `pip install -e .`.
 
-   If you use this command you should not also need to use the `requirements.txt` file. If step 4 fails, then to ensure
-   you have the required packages enter `pip install -r requirements.txt` in the IDE's terminal window.
+   If you use this command you should not also need to use the `requirements.txt` file. If this step fails, then install
+   the required packages by entering `pip install -r requirements.txt` in the IDE's terminal window.
 
-5. Run the tests in test_hello.py - these should pass if your project files are structured as above.To run the sample
-   tests
+5. Run the tests in `test_hello.py`. These should pass if your project files are structured as above and you completed
+   `pip install -e .`
