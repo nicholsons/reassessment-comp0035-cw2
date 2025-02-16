@@ -1,0 +1,13 @@
+# Documentation for pyproject.toml: https://packaging.python.org/en/latest/guides/writing-pyproject-toml/
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+# name and version are mandatory, you can change the values but do not delete them.
+[project]
+name = "comp0035-cw2-reassessment"
+version = "2025.1"
+dependencies = [
+    "pytest",
+    "pytest-cov"
+]
