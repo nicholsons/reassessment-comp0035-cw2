@@ -2,7 +2,7 @@
 
 1. Create a project in VS Code, PyCharm or other Python IDE
 2. Create and activate a virtual Python environment.
-3. Add the coursework code, the following structure is recommended:
+3. The coursework code has the following structure:
 
     ```text
      my_project/
@@ -11,10 +11,10 @@
      ├── requirements.txt       # List of dependencies
      ├── pyproject.toml         # Installation and package details
      ├── src/                   # Main code directory
-     ├── traffic/               # Traffic package directory
-     │   ├── __init__.py        # Makes this directory a package
-     │   ├── traffic.db         # SQLite database with some of the traffic data
-     │   ├── trafficdata.py     # Python class that creates and instance of the data with methods
+     │   ├── traffic/               # Traffic package directory
+     │      ├── __init__.py        # Makes this directory a package
+     │      ├── traffic.db         # SQLite database with some of the traffic data
+     │      ├── trafficdata.py     # Python class that creates and instance of the data with methods
      ├── tests/                 # Test suite
      │   ├── conftest.py        # Tests for main module
      │   ├── test_hello.py      # Example tests
