@@ -13,7 +13,8 @@
      ├── src/                   # Main code directory
      │   ├── traffic/               # Traffic package directory
      │      ├── __init__.py        # Makes this directory a package
-     │      ├── traffic.db         # SQLite database with some of the traffic data
+     │      ├── traffic-flow-borough.xls    # Traffic data file 1
+     │      ├── traffic-flow-uk.xls         # Traffic data file 2
      │      ├── trafficdata.py     # Python class that creates and instance of the data with methods
      ├── tests/                 # Test suite
      │   ├── conftest.py        # Tests for main module
